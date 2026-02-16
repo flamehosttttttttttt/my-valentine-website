@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="pageTitle">Valentine</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <h1 id="question"></h1>
+        <button id="yesBtn"></button>
+        <button id="noBtn"></button>
+        <div id="secretMessage"></div>
+        <div id="loveMeterContainer">
+            <input type="range" id="loveMeter" min="0" max="100" value="0">
+            <span id="loveMessage"></span>
+        </div>
+        <button id="nextBtn"></button>
+        <div id="celebration"></div>
+    </div>
+
+    <audio id="bgMusic" loop></audio>
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
