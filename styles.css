@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #ffafbd, #ffc3a0);
+    color: #ff4757;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#container {
+    text-align: center;
+}
+
+button {
+    background-color: #ff6b6b;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #ff8787;
+}
+
+#loveMeterContainer {
+    margin-top: 20px;
+}
+
+#loveMeter {
+    width: 80%;
+}
+
+#celebration {
+    margin-top: 20px;
+    font-size: 20px;
+}
