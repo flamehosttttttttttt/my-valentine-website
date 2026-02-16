@@ -8,27 +8,27 @@ const CONFIG = {
     // Floating emojis that appear in the background
     floatingEmojis: {
         hearts: ['❤️', '💖', '🥰', '💗', '🌹'], // Heart emojis
-        bears: ['🧸', '🐻']                        // Cute bear emojis
+        bears: ['🧸', '🐻']                       // Cute bear emojis
     },
 
     // Questions and answers
-    first: {
-        text: "Do you like me?",
-        yesBtn: "Yes!",
-        noBtn: "No",
-        secretAnswer: "I don't like you, I love you! ❤️" // Secret hover message
-    },
-
-    second: {
-        text: "Shall we make a bucket list for our reunion?",
-        startText: "Yes! Let's plan it!",
-        nextBtn: "Later..."
-    },
-
-    third: {
-        text: "Will you be my Valentine on February 16th, 2026?",
-        yesBtn: "Yes!",
-        noBtn: "No"
+    questions: {
+        first: {
+            text: "Do you like me?",
+            yesBtn: "Yes!",
+            noBtn: "No",
+            secretAnswer: "I don't like you, I love you! ❤️" // Secret hover message
+        },
+        second: {
+            text: "Shall we make a bucket list for our reunion?",
+            startText: "Yes! Let's plan it!",
+            nextBtn: "Later..."
+        },
+        third: {
+            text: "Will you be my Valentine on February 16th, 2026?",
+            yesBtn: "Yes!",
+            noBtn: "No"
+        }
     },
 
     // Love meter messages
