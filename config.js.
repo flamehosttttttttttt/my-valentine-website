@@ -1,0 +1,70 @@
+const CONFIG = {
+    // Your Valentine's name that will appear in the title
+    valentineName: "Samir, My Handsome",
+
+    // The title that appears in the browser tab
+    pageTitle: "Will You Be My Valentine? 💖",
+
+    // Floating emojis that appear in the background
+    floatingEmojis: {
+        hearts: ['❤️', '💖', '🥰', '💗', '🌹'], // Heart emojis
+        bears: ['🧸', '🐻']                        // Cute bear emojis
+    },
+
+    // Questions and answers
+    first: {
+        text: "Do you like me?",
+        yesBtn: "Yes!",
+        noBtn: "No",
+        secretAnswer: "I don't like you, I love you! ❤️" // Secret hover message
+    },
+
+    second: {
+        text: "Shall we make a bucket list for our reunion?",
+        startText: "Yes! Let's plan it!",
+        nextBtn: "Later..."
+    },
+
+    third: {
+        text: "Will you be my Valentine on February 16th, 2026?",
+        yesBtn: "Yes!",
+        noBtn: "No"
+    },
+
+    // Love meter messages
+    loveMessages: {
+        extreme: "WOOOOW You love me that much?? 😍",
+        high: "To infinity and beyond! 💖",
+        normal: "And beyond! 💗"
+    },
+
+    // Color scheme for the website
+    colors: {
+        backgroundStart: "#ffafbd",  // Gradient start
+        backgroundEnd: "#ffc3a0",    // Gradient end
+        buttonBackground: "#ff6b6b", // Button color
+        buttonHover: "#ff8787",      // Button hover color
+        textColor: "#ff4757"         // Text color
+    },
+
+    // Animation settings
+    animations: {
+        floatDuration: "15s",    // How long emojis take to float
+        floatDistance: "50px",   // How far emojis float
+        bounceSpeed: "0.5s",     // Speed of bounce effect
+        heartExplosionSize: 1.5  // Size of hearts when they pop
+    },
+
+    // Music settings
+    music: {
+        enabled: true,  // Music feature is enabled
+        autoplay: true, // Try to autoplay (may be blocked by some browsers)
+        musicUrl: "https://cdn1.sefon.pro/download/c8B8ITtzhZwiR6DEm-K27w/1771281482/1/Jason%20Donovan%20-%20Sealed%20With%20A%20Kiss.mp3",
+        startText: "🎵 Play Music", // Button text to start music
+        stopText: "🔇 Stop Music",  // Button text to stop music
+        volume: 0.5                 // Volume level (0.0 to 1.0)
+    }
+};
+
+// Don't modify anything below this line unless you know what you're doing
+window.VALENTINE_CONFIG = CONFIG;
